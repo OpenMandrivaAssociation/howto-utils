@@ -1,7 +1,7 @@
-Summary:	Index generator for LDP html formatted HOWTO documents
+Summary:	Index generator for HTML formatted HOWTO documents from TLDP 
 Name:		howto-utils
 Version:	0.2.15
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Text tools
 Source:		%name-%version.tar.bz2
 Url: http://www.mandrivalinux.com
@@ -13,16 +13,16 @@ Requires:	sed perl
 BuildRequires: grep
 
 %description
-Linux HOWTOs are parts of the  Linux Documentation Project.
+Linux HOWTOs are parts of the Linux Documentation Project.
 They are detailed documents which describe a specific aspect of 
-configuring or using Linux.  Linux HOWTOs are a great source of
-practical information about your system.  The latest versions of these
+configuring or using Linux. Linux HOWTOs are a great source of
+practical information about your system. The latest versions of these
 documents are located at http://www.tldp.org/docs.html#howto
 
-Currently, availlable tools are :
+Currently, available tools are :
 - makehowtoindex is an index generator for html formatted HOWTO documents
 - mirror_howtos mirror howtos and mini-howtos
-- untar_howtos process a howto mirror (obtained by mirror_howtos)
+- untar_howtos processes a howto mirror obtained by mirror_howtos
 
 %prep 
 %setup -q
