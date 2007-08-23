@@ -9,7 +9,7 @@ License:	GPL
 BuildRoot:	%_tmppath/%name-%version-root
 BuildArchitectures: noarch
 Requires:	sed perl
-# sed and fileutils're already required by basesystem:
+# sed and coreutils're already required by basesystem:
 BuildRequires: grep
 
 %description
