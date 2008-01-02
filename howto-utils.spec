@@ -6,6 +6,7 @@ Group:		Text tools
 Source:		%name-%version.tar.bz2
 Url: http://www.mandrivalinux.com
 License:	GPL
+BuildRoot:	%_tmppath/%name-%version-root
 BuildArchitectures: noarch
 Requires:	sed perl
 # sed and coreutils're already required by basesystem:
