@@ -1,7 +1,7 @@
 Summary:	Index generator for HTML formatted HOWTO documents from TLDP 
 Name:		howto-utils
 Version:	0.2.15
-Release:	%mkrel 7
+Release:	%mkrel 8
 Group:		Text tools
 Source:		%name-%version.tar.bz2
 Url: http://www.mandrivalinux.com
