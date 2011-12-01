@@ -28,14 +28,14 @@ Currently, available tools are :
 %setup -q
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT{%_datadir/doc/HOWTO/HTML/,%_bindir}
-install -m 755 makehowtoindex {mirror,untar}_howtos $RPM_BUILD_ROOT%_bindir
+rm -rf %{buildroot}
+mkdir -p %{buildroot}{%_datadir/doc/HOWTO/HTML/,%_bindir}
+install -m 755 makehowtoindex {mirror,untar}_howtos %{buildroot}%_bindir
 for i in *.png; do
-install -m 644 $i $RPM_BUILD_ROOT%_datadir/doc/HOWTO/HTML/;done
+install -m 644 $i %{buildroot}%_datadir/doc/HOWTO/HTML/;done
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
