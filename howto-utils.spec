@@ -4,7 +4,7 @@ Version:	0.2.15
 Release:	18
 Group:		Text tools
 License:	GPLv2
-Url:		http://www.mandrivalinux.com
+Url:		https://www.mandrivalinux.com
 Source0:	%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	grep
